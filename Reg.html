@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+.img{
+	width:200px;
+	position:absolute;
+	left:0;
+	top:20;
+	}
+	.text {
+	position:absolute;
+	right:30px;
+	top:50px;
+   }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  right:30px;
+	top:50px;
+	}
+
+li {
+  float: left;
+	}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	}
+
+li a:hover {
+  background-color: #111
+  top:500px;
+	}
+	</style>
+
+  <body>
+
+<div class="img">
+<a href="https://www.iiit.ac.in/">
+<img src="https://www.iiit.ac.in/img/iiit-new.png" class="img" /></a>
+</div>
+<div class="text">
+<a href="https://serc.iiit.ac.in/rdip">
+<p>RDPI</p>
+</div>
+</a><br><br><br><br><br><r><br><br><br>
+<body>
+<ul>
+  <li><a href="Homepage.html">Home</a></li>
+  <li><a href="Registration.html">Registration</a></li>
+</ul><br>
+<form action="Details.html" method="GET">
+<table   width="500"  >
+<caption></caption>
+<tr>
+<th>First name:</th>
+<td>&nbsp;&nbsp;<input type="text" pattern="[A-Za-z]{1-10}" title="" placeholder="" required/></td>
+</tr>
+  <tr>
+<th>E-mail:</th>
+<td>&nbsp;&nbsp;<input type="text" title="" placeholder="" required/></td>
+</tr><tr>
+<th>Phone Number:</th>
+<td><input type="tel"  pattern="[0-9]{10}" title=""  placeholder="" required/></td>
+</tr>
+  </tr>  
+  <tr>
+<th>Gender:</th>
+<td>
+  <input type="radio" id="male" name="gender" value="male">
+  <label type="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label type="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label type="other">Other</label>
+</td>
+</tr>
+<tr>
+<th>Reason for RDIP:</th>
+<td>
+<input type="radio" id="HTML" name="COURSE" value="HTML">
+  <label type="HTML">HTML</label>
+  <input type="radio" id="CSS" name="CSS" value="CSS">
+  <label type="CSS">CSS</label>
+  <input type="radio" id="JavaScript" name="JavaScript" value="JavaScript">
+  <label type="JavaScript">JavaScript</label><br>
+</td>
+</tr>
+<tr>
+<th>college:</th>&emsp;&emsp;
+<td><input type="text"  title="" placeholder="" required/></td>
+</tr>
+<tr>
+<td>&nbsp;   &nbsp;    &emsp;&emsp;  <input type="checkbox" name=""</td>
+  <th><label type="text">I declare above details given by me are true</label><th>
+  <tr><th><input type="submit" value="Submit" &nbsp;&nbsp;></th>
+<td>   &emsp;      &emsp;    &emsp;    <input type="reset" value="Reset"></td></tr>
+</table>
+</form>
+</body>
+</html>
